@@ -5,6 +5,6 @@ Opcional: en lugar de usar cápsulas, descarga modelos 3D de Mixamo (o de otra f
 
 ---
 
-Utilicé modelos 3D de robots descargados de TurboSquid y les asigné una animación de levitar. Tanto la velocidad de la animación como la velocidad del robot depende de su tamaño (generado aleatoriamente), generando coherencia visual e individualidad para cada agente.
+Utilicé modelos 3D de robots descargados de TurboSquid y les asigné una animación de levitar. Tanto la velocidad de la animación como la velocidad del robot depende de su tamaño (generado aleatoriamente, así como otras propiedades del Nav Mesh Agent), generando coherencia visual e individualidad para cada agente.
 
 ![](Gif-AINavmeshes.gif)
