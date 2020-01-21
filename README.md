@@ -4,7 +4,7 @@ Modifica el proyecto "Agentes en el Nav Mesh" para incluir un First Person Contr
 Opcional: en lugar de usar cápsulas, descarga modelos 3D de Mixamo (o de otra fuente) y anímalos con los scripts que hemos usado para que se adapte su movimiento al del Nav Mesh Agent.
 
 ---
-
-Utilicé modelos 3D de robots descargados de TurboSquid y les asigné una animación de levitar. Tanto la velocidad de la animación como la velocidad del robot depende de su tamaño (generado aleatoriamente, así como otras propiedades del Nav Mesh Agent), generando coherencia visual e individualidad para cada agente.
+Desarrollé un First Person Controller básico, así como diferentes tipos de agentes (Robots Blancos, Rojos, Amarillos y Azules).
+Para los agentes utilicé modelos 3D de robots descargados de TurboSquid y les asigné una animación de levitar. Tanto la velocidad de la animación como la velocidad del robot depende de su tamaño (generado aleatoriamente, así como otras propiedades del Nav Mesh Agent), generando coherencia visual e individualidad para cada agente.
 
 ![](Gif-AINavmeshes.gif)
