@@ -355,6 +355,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: robot
       objectReference: {fileID: 0}
+    - target: {fileID: 7666613528706681730, guid: 758b821d9863b1e468ea9b0b43a0d1f3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: aca8ff1eed3eeb742bf25662cc16bc33, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 758b821d9863b1e468ea9b0b43a0d1f3, type: 3}
 --- !u!1 &48234026
@@ -411,7 +416,7 @@ NavMeshAgent:
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 1
-  m_WalkableMask: 4294967295
+  m_WalkableMask: 7
   m_ObstacleAvoidanceType: 4
 --- !u!136 &48234029
 CapsuleCollider:
@@ -536,6 +541,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: robot
       objectReference: {fileID: 0}
+    - target: {fileID: 7666613528706681730, guid: 758b821d9863b1e468ea9b0b43a0d1f3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: aca8ff1eed3eeb742bf25662cc16bc33, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 758b821d9863b1e468ea9b0b43a0d1f3, type: 3}
 --- !u!1001 &603316184
@@ -628,7 +638,7 @@ GameObject:
   - component: {fileID: 710953111}
   - component: {fileID: 710953116}
   m_Layer: 0
-  m_Name: RedAgent (1)
+  m_Name: RedAgent 2
   m_TagString: ai
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,7 +677,7 @@ NavMeshAgent:
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 1
-  m_WalkableMask: 4294967295
+  m_WalkableMask: 7
   m_ObstacleAvoidanceType: 4
 --- !u!136 &710953113
 CapsuleCollider:
@@ -740,7 +750,7 @@ GameObject:
   - component: {fileID: 730680702}
   - component: {fileID: 730680707}
   m_Layer: 0
-  m_Name: WhiteRobot
+  m_Name: RedAgent 3
   m_TagString: ai
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -779,7 +789,7 @@ NavMeshAgent:
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 1
-  m_WalkableMask: 4294967295
+  m_WalkableMask: 7
   m_ObstacleAvoidanceType: 4
 --- !u!136 &730680704
 CapsuleCollider:
@@ -930,7 +940,7 @@ GameObject:
   - component: {fileID: 809963878}
   - component: {fileID: 809963882}
   m_Layer: 0
-  m_Name: YellowAgent (1)
+  m_Name: BlueAgent 2
   m_TagString: ai
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -993,7 +1003,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 809963877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.452, y: 1.14, z: 15.5}
+  m_LocalPosition: {x: -8.6, y: 1.14, z: 15.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1739714673}
@@ -22238,6 +22248,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1848935263880106, guid: 3408a284b02ef4bd3803e49ffed562cd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1849858641797474, guid: 3408a284b02ef4bd3803e49ffed562cd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -25309,6 +25323,10 @@ PrefabInstance:
     - target: {fileID: 1979236865922324, guid: 3408a284b02ef4bd3803e49ffed562cd, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979236865922324, guid: 3408a284b02ef4bd3803e49ffed562cd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1979238822388204, guid: 3408a284b02ef4bd3803e49ffed562cd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -26053,6 +26071,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: robot
       objectReference: {fileID: 0}
+    - target: {fileID: 7666613528706681730, guid: 23f88f2a342e0064c9560258aed1e4e5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: e7c48e7a806192d4890b7cdba2af37a8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23f88f2a342e0064c9560258aed1e4e5, type: 3}
 --- !u!1 &1388117221
@@ -26070,7 +26093,7 @@ GameObject:
   - component: {fileID: 1388117222}
   - component: {fileID: 1388117225}
   m_Layer: 0
-  m_Name: BlueAgent
+  m_Name: Blue Agent 3
   m_TagString: ai
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26160,7 +26183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388117221}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.452, y: 1.14, z: 15.5}
+  m_LocalPosition: {x: -8.6, y: 1.14, z: 15.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1740543}
@@ -26193,7 +26216,7 @@ GameObject:
   - component: {fileID: 1649600589}
   - component: {fileID: 1649600586}
   m_Layer: 0
-  m_Name: YellowAgent
+  m_Name: BlueAgent
   m_TagString: ai
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26262,7 +26285,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649600583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.452, y: 1.14, z: 15.5}
+  m_LocalPosition: {x: -8.6, y: 1.14, z: 15.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1590218325}
@@ -26634,6 +26657,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: robot
       objectReference: {fileID: 0}
+    - target: {fileID: 7666613528706681730, guid: 23f88f2a342e0064c9560258aed1e4e5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: e7c48e7a806192d4890b7cdba2af37a8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23f88f2a342e0064c9560258aed1e4e5, type: 3}
 --- !u!1 &2039756016
@@ -26651,7 +26679,7 @@ GameObject:
   - component: {fileID: 2039756017}
   - component: {fileID: 2039756022}
   m_Layer: 0
-  m_Name: BlueAgent (1)
+  m_Name: Blue Agent 4
   m_TagString: ai
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26722,7 +26750,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039756016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.452, y: 1.14, z: 15.5}
+  m_LocalPosition: {x: -8.6, y: 1.14, z: 15.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 683176483}
@@ -26763,7 +26791,7 @@ GameObject:
   - component: {fileID: 2088496421}
   - component: {fileID: 2088496426}
   m_Layer: 0
-  m_Name: WhiteRobot (1)
+  m_Name: RedAgent 4
   m_TagString: ai
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26802,7 +26830,7 @@ NavMeshAgent:
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 1
-  m_WalkableMask: 4294967295
+  m_WalkableMask: 7
   m_ObstacleAvoidanceType: 4
 --- !u!136 &2088496423
 CapsuleCollider:
